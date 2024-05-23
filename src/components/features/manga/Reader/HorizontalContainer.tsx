@@ -7,12 +7,9 @@ import { useReadSettings } from "@/contexts/ReadSettingsContext";
 import classNames from "classnames";
 import React, { useCallback, useEffect, useRef } from "react";
 import { BrowserView, isMobile, MobileView } from "react-device-detect";
-import { SwiperOptions } from "swiper";
-import "swiper/swiper.min.css";
-import ReadImage from "./ReadImage";
-import type SwiperClass from "swiper/types/swiper-class";
 
 const swiperOptions: SwiperOptions = {
+  
   direction: "horizontal",
   slidesPerView: 1,
   spaceBetween: 8,
