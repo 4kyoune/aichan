@@ -8,11 +8,6 @@ import classNames from "classnames";
 import React, { useCallback, useEffect, useRef } from "react";
 
 
-  direction: "horizontal",
-  slidesPerView: 1,
-  spaceBetween: 8,
-  loop: false,
-};
 
 const HorizontalContainer: React.FC = () => {
   const { state, setState } = useReadPanel();
