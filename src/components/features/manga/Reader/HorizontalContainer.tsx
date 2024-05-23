@@ -6,10 +6,8 @@ import { useReadPanel } from "@/contexts/ReadPanelContext";
 import { useReadSettings } from "@/contexts/ReadSettingsContext";
 import classNames from "classnames";
 import React, { useCallback, useEffect, useRef } from "react";
-import { BrowserView, isMobile, MobileView } from "react-device-detect";
 
-const swiperOptions: SwiperOptions = {
-  
+
   direction: "horizontal",
   slidesPerView: 1,
   spaceBetween: 8,
