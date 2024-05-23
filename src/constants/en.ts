@@ -1,4 +1,3 @@
-//@ts-nocheck
 import { Notification, NotificationEntity } from "@/types";
 import {
   CharacterRole,
