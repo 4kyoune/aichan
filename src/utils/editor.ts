@@ -1,4 +1,3 @@
-//@ts-nocheck
 import SpoilerNodeView from "@/components/features/comment/SpoilerNodeView";
 import Mention from "@tiptap/extension-mention";
 import Placeholder from "@tiptap/extension-placeholder";
