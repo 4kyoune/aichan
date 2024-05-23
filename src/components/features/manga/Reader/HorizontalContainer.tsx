@@ -4,7 +4,6 @@ import HeadlessSwiper, {
 import { useReadInfo } from "@/contexts/ReadContext";
 import { useReadPanel } from "@/contexts/ReadPanelContext";
 import { useReadSettings } from "@/contexts/ReadSettingsContext";
-import classNames from "classnames";
 import React, { useCallback, useEffect, useRef } from "react";
 
 
