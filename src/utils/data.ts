@@ -1,4 +1,3 @@
-//@ts-nocheck
 import enTranslations from "@/constants/en";
 import viTranslations from "@/constants/vi";
 import ruTranslations from "@/constants/ru";
